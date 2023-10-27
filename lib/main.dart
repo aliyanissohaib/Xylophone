@@ -17,7 +17,7 @@ void main (){
               onPressed: ()async{
 
             final player = AudioPlayer();
-            await player.play(UrlSource('assets/audio/town.mp3'));
+            await player.play(UrlSource('D:\flutter\cont\android\assets\audio\town.mp3'));
 
              },
             child: const Text('Play')),
