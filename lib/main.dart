@@ -6,6 +6,7 @@ void main (){
     home: Scaffold(
       appBar: AppBar(),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
 
         children: <Widget>[
       Expanded(
