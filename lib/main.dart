@@ -21,7 +21,7 @@ void main (){
             await player.play(UrlSource('D:\flutter\cont\android\assets\audio\town.mp3'));
 
              },
-            child: const Text('Play')),
+            child: const Text('')),
 
 
     ),Expanded(
@@ -36,7 +36,7 @@ void main (){
                 await player.play(UrlSource('assets/audio/town.mp3'));
 
               },
-              child: const Text('Play')),
+              child: const Text('')),
 
 
         ),Expanded(
